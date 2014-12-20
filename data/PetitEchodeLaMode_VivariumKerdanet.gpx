@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="48.54269" lon="-2.96973">
+  <name>Mairie, 6 Rue de la Mairie, 22170 Châtelaudren</name>
+</wpt>
+<wpt lat="48.51589" lon="-3.0181">
+  <name>Terrarium de Kerdanet, 8 Kerdanet, 22170 Plouagat</name>
+</wpt>
+<trk>
+  <name>Mairie, 6 Rue de la Mairie, 22170 Châtelaudren - 48.541208,-2.970173 (350 m / 2 mins)</name>
+  <trkseg>
+    <trkpt lat="48.54269" lon="-2.96973"></trkpt>
+    <trkpt lat="48.54235" lon="-2.96947"></trkpt>
+    <trkpt lat="48.54235" lon="-2.96947"></trkpt>
+    <trkpt lat="48.54225" lon="-2.96945"></trkpt>
+    <trkpt lat="48.54221" lon="-2.96988"></trkpt>
+    <trkpt lat="48.54214" lon="-2.97012"></trkpt>
+    <trkpt lat="48.54201" lon="-2.97047"></trkpt>
+    <trkpt lat="48.54188" lon="-2.97065"></trkpt>
+    <trkpt lat="48.54188" lon="-2.97065"></trkpt>
+    <trkpt lat="48.54168" lon="-2.97084"></trkpt>
+    <trkpt lat="48.54086" lon="-2.97064"></trkpt>
+    <trkpt lat="48.54086" lon="-2.97064"></trkpt>
+    <trkpt lat="48.54093" lon="-2.97057"></trkpt>
+    <trkpt lat="48.54128" lon="-2.97051"></trkpt>
+    <trkpt lat="48.54131" lon="-2.97044"></trkpt>
+    <trkpt lat="48.5412" lon="-2.97017"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>48.541208,-2.970173 - 48.5424325,-2.9711044 (550 m / 2 mins)</name>
+  <trkseg>
+    <trkpt lat="48.5412" lon="-2.97017"></trkpt>
+    <trkpt lat="48.54131" lon="-2.97044"></trkpt>
+    <trkpt lat="48.54128" lon="-2.97051"></trkpt>
+    <trkpt lat="48.54093" lon="-2.97057"></trkpt>
+    <trkpt lat="48.54086" lon="-2.97064"></trkpt>
+    <trkpt lat="48.54086" lon="-2.97064"></trkpt>
+    <trkpt lat="48.54168" lon="-2.97084"></trkpt>
+    <trkpt lat="48.5418" lon="-2.97117"></trkpt>
+    <trkpt lat="48.54184" lon="-2.97138"></trkpt>
+    <trkpt lat="48.54169" lon="-2.97189"></trkpt>
+    <trkpt lat="48.5416" lon="-2.97251"></trkpt>
+    <trkpt lat="48.54167" lon="-2.97312"></trkpt>
+    <trkpt lat="48.54176" lon="-2.97322"></trkpt>
+    <trkpt lat="48.54176" lon="-2.97322"></trkpt>
+    <trkpt lat="48.54243" lon="-2.9711"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>48.5424325,-2.9711044 - Terrarium de Kerdanet, 8 Kerdanet, 22170 Plouagat (6.1 km / 10 mins)</name>
+  <trkseg>
+    <trkpt lat="48.54243" lon="-2.9711"></trkpt>
+    <trkpt lat="48.54176" lon="-2.97322"></trkpt>
+    <trkpt lat="48.54176" lon="-2.97322"></trkpt>
+    <trkpt lat="48.54166" lon="-2.97397"></trkpt>
+    <trkpt lat="48.5416" lon="-2.97589"></trkpt>
+    <trkpt lat="48.54154" lon="-2.9768"></trkpt>
+    <trkpt lat="48.54122" lon="-2.97951"></trkpt>
+    <trkpt lat="48.5391" lon="-2.98803"></trkpt>
+    <trkpt lat="48.53898" lon="-2.98883"></trkpt>
+    <trkpt lat="48.53902" lon="-2.98893"></trkpt>
+    <trkpt lat="48.53901" lon="-2.98906"></trkpt>
+    <trkpt lat="48.53879" lon="-2.98942"></trkpt>
+    <trkpt lat="48.53857" lon="-2.99018"></trkpt>
+    <trkpt lat="48.53718" lon="-2.99582"></trkpt>
+    <trkpt lat="48.53718" lon="-2.99607"></trkpt>
+    <trkpt lat="48.53722" lon="-2.9962"></trkpt>
+    <trkpt lat="48.53706" lon="-2.9964"></trkpt>
+    <trkpt lat="48.53682" lon="-2.9971"></trkpt>
+    <trkpt lat="48.53677" lon="-2.99742"></trkpt>
+    <trkpt lat="48.53635" lon="-2.99909"></trkpt>
+    <trkpt lat="48.53628" lon="-2.99962"></trkpt>
+    <trkpt lat="48.53625" lon="-3.00144"></trkpt>
+    <trkpt lat="48.53617" lon="-3.00179"></trkpt>
+    <trkpt lat="48.53619" lon="-3.00205"></trkpt>
+    <trkpt lat="48.53619" lon="-3.00205"></trkpt>
+    <trkpt lat="48.53621" lon="-3.00225"></trkpt>
+    <trkpt lat="48.53616" lon="-3.00238"></trkpt>
+    <trkpt lat="48.53608" lon="-3.00244"></trkpt>
+    <trkpt lat="48.53599" lon="-3.00242"></trkpt>
+    <trkpt lat="48.53574" lon="-3.00216"></trkpt>
+    <trkpt lat="48.53564" lon="-3.0022"></trkpt>
+    <trkpt lat="48.53526" lon="-3.00267"></trkpt>
+    <trkpt lat="48.5348" lon="-3.00339"></trkpt>
+    <trkpt lat="48.53444" lon="-3.00434"></trkpt>
+    <trkpt lat="48.53375" lon="-3.00676"></trkpt>
+    <trkpt lat="48.5335" lon="-3.00749"></trkpt>
+    <trkpt lat="48.53253" lon="-3.009"></trkpt>
+    <trkpt lat="48.53045" lon="-3.01256"></trkpt>
+    <trkpt lat="48.53013" lon="-3.0132"></trkpt>
+    <trkpt lat="48.5296" lon="-3.01447"></trkpt>
+    <trkpt lat="48.5294" lon="-3.01488"></trkpt>
+    <trkpt lat="48.52907" lon="-3.01533"></trkpt>
+    <trkpt lat="48.52835" lon="-3.01606"></trkpt>
+    <trkpt lat="48.52799" lon="-3.0165"></trkpt>
+    <trkpt lat="48.52322" lon="-3.0238"></trkpt>
+    <trkpt lat="48.52204" lon="-3.02554"></trkpt>
+    <trkpt lat="48.52204" lon="-3.02554"></trkpt>
+    <trkpt lat="48.52198" lon="-3.02521"></trkpt>
+    <trkpt lat="48.52173" lon="-3.02204"></trkpt>
+    <trkpt lat="48.52176" lon="-3.02131"></trkpt>
+    <trkpt lat="48.52173" lon="-3.02088"></trkpt>
+    <trkpt lat="48.52161" lon="-3.02002"></trkpt>
+    <trkpt lat="48.52145" lon="-3.0195"></trkpt>
+    <trkpt lat="48.52126" lon="-3.01933"></trkpt>
+    <trkpt lat="48.521" lon="-3.0193"></trkpt>
+    <trkpt lat="48.52084" lon="-3.01934"></trkpt>
+    <trkpt lat="48.51942" lon="-3.02024"></trkpt>
+    <trkpt lat="48.51894" lon="-3.02067"></trkpt>
+    <trkpt lat="48.51858" lon="-3.02088"></trkpt>
+    <trkpt lat="48.51858" lon="-3.02088"></trkpt>
+    <trkpt lat="48.51784" lon="-3.02053"></trkpt>
+    <trkpt lat="48.51663" lon="-3.01963"></trkpt>
+    <trkpt lat="48.51654" lon="-3.0194"></trkpt>
+    <trkpt lat="48.51655" lon="-3.01894"></trkpt>
+    <trkpt lat="48.51643" lon="-3.01841"></trkpt>
+    <trkpt lat="48.51637" lon="-3.01825"></trkpt>
+    <trkpt lat="48.51601" lon="-3.01774"></trkpt>
+    <trkpt lat="48.51601" lon="-3.01774"></trkpt>
+    <trkpt lat="48.51589" lon="-3.0181"></trkpt>
+  </trkseg>
+</trk>
+</gpx>

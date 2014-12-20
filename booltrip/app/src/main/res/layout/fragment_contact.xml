@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="571dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/light_violet"
+    android:layout_height="match_parent">
+
+    <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/booltrip_title"
+        android:layout_gravity="left|top"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="31dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cadre_blanc_arrondi_booltripper"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendButton"
+        android:background="@null"
+        android:src="@drawable/enveloppe_blanche"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/booltrip_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"/>-->
+
+
+</LinearLayout>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="571dp">
+    <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/contact_info"
+        android:layout_gravity="center_horizontal|right|top"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:gravity="center|left"
+        android:layout_marginTop="125dp"
+        android:id="@+id/ContactInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picto_licorne"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="right" />
+    <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/booltrip_title"
+        android:layout_gravity="left|top"
+        android:textColor="@color/violet"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/ContactName"
+        android:gravity="left"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp" />
+</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+Couleurs :
+Fond Orange : F08517
+Orange Foncé : D06813
+Rouge : CB1416
+Fond vert : D3D930
+vert : 98C21C
+Mauve : B899C7
+Violet : 613D90

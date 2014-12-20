@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="48.53664" lon="-2.99865">
+  <name>48.536642,-2.998706 (Plouagat)</name>
+</wpt>
+<wpt lat="48.54359" lon="-2.96785">
+  <name>48.543588,-2.967909 (Châtelaudren)</name>
+</wpt>
+<trk>
+  <name>48.536642,-2.998706 (Plouagat) - 48.543588,-2.967909 (Châtelaudren) (2.5 km / 6 mins)</name>
+  <trkseg>
+    <trkpt lat="48.53664" lon="-2.99865"></trkpt>
+    <trkpt lat="48.53648" lon="-2.99857"></trkpt>
+    <trkpt lat="48.53648" lon="-2.99857"></trkpt>
+    <trkpt lat="48.53677" lon="-2.99742"></trkpt>
+    <trkpt lat="48.53682" lon="-2.9971"></trkpt>
+    <trkpt lat="48.53699" lon="-2.99656"></trkpt>
+    <trkpt lat="48.53704" lon="-2.99613"></trkpt>
+    <trkpt lat="48.53711" lon="-2.99605"></trkpt>
+    <trkpt lat="48.53727" lon="-2.99548"></trkpt>
+    <trkpt lat="48.53857" lon="-2.99018"></trkpt>
+    <trkpt lat="48.53879" lon="-2.98942"></trkpt>
+    <trkpt lat="48.53879" lon="-2.98887"></trkpt>
+    <trkpt lat="48.5389" lon="-2.98877"></trkpt>
+    <trkpt lat="48.53903" lon="-2.98842"></trkpt>
+    <trkpt lat="48.53926" lon="-2.98735"></trkpt>
+    <trkpt lat="48.54122" lon="-2.97951"></trkpt>
+    <trkpt lat="48.54154" lon="-2.9768"></trkpt>
+    <trkpt lat="48.5416" lon="-2.97589"></trkpt>
+    <trkpt lat="48.54166" lon="-2.97397"></trkpt>
+    <trkpt lat="48.54173" lon="-2.97336"></trkpt>
+    <trkpt lat="48.54173" lon="-2.97336"></trkpt>
+    <trkpt lat="48.54345" lon="-2.96782"></trkpt>
+    <trkpt lat="48.54345" lon="-2.96782"></trkpt>
+    <trkpt lat="48.54359" lon="-2.96785"></trkpt>
+  </trkseg>
+</trk>
+</gpx>

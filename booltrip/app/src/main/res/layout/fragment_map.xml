@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@color/light_violet"
+    android:layout_height="match_parent" tools:context="com.booltrip.booltrip.MapFragment">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+
+        <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/SelectedTrackTitle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/booltrip_title"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="left" />
+
+        <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/SelectedTrackCost"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/booltrip_title"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/feuille_blanche"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_gravity="right" />
+
+    </FrameLayout>
+
+    <com.google.android.gms.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="28dp" />
+
+    <ListView
+        android:layout_height="154dp"
+        android:layout_width="match_parent"
+        android:id="@+id/UserList"
+        android:layout_below="@+id/booltripCounter"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal|bottom">
+    </ListView>
+</FrameLayout>

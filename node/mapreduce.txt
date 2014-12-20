@@ -1,0 +1,58 @@
+//Ce double map reduce ne marche qu'avec des jeux de données à points constants.
+//Les jeux de données extraits de GPX n'ont pas une résolution contante.
+
+var map = function() {
+	for (var i = 0; i < this.values.length; i++) {
+		var lat = Number(this.values[i][0]).toFixed(2);
+		var lon = Number(this.values[i][1]).toFixed(2);
+		emit(lat + ' ' + lon, this.id);
+	}
+};
+
+var reduce = function(key, values) {
+	var pairs = {};
+	
+	values.forEach(function(doc) {
+		if(pairs[doc] == null) { 
+			pairs[doc] = 1
+		} else { 
+			pairs[doc] = pairs[doc] + 1;
+		}
+	});
+
+	return pairs;
+};
+
+db.tracks.mapReduce(map, reduce, {out: "res"});
+
+var remap = function() {
+
+	if(this.value === null || typeof this.value !== 'object')
+		return;
+
+	var valarr = [];
+	for (var trip in this.value) {
+		if(this.value.hasOwnProperty(trip)) {
+			valarr.push(trip);
+		}
+	}
+	
+	for (var i = 0; i < valarr.length; i++) {
+		for (var j = 0; j < valarr.length; j++) {
+			if(valarr[i] != valarr[j])
+				emit(valarr[i] + ' ' + valarr[j], 1);
+		}
+	}
+};
+
+var rereduce = function( key, values ) {    
+    var count = 0; 
+
+    values.forEach(function(v) {            
+        count ++;
+    });
+    return count;
+}
+
+var reduceRes = db.res.mapReduce(remap, rereduce, {out: "finalRes"});
+db[finalRes.result].find()

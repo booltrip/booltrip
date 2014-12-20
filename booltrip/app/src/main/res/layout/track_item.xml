@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+
+
+    <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+        android:layout_width="181dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TrackTitle"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/booltrip_title"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rouage_blanc"
+        android:layout_alignBottom="@+id/TrackTitle"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="80dp" />
+
+    <com.booltrip.booltrip.view.CustomTextView class="com.booltrip.booltrip.view.CustomTextView"
+        android:layout_width="127dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TrackCost"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/booltrip_title"
+        android:layout_gravity="center_vertical|right|top"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/feuille_blanche"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="1dp"
+        android:layout_gravity="right" />
+
+</FrameLayout>
